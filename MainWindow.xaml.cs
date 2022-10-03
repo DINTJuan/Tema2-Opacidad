@@ -27,12 +27,12 @@ namespace Tema2_Opacidad
 
         private void Image_MouseEnter(object sender, MouseEventArgs e)
         {
-            ((UIElement)sender).Opacity = 0.5;
+            ((Image)sender).Opacity = 0.5;
         }
 
         private void Image_MouseLeave(object sender, MouseEventArgs e)
         {
-            ((UIElement)sender).Opacity = 1;
+            ((Image)sender).Opacity = 1;
         }
 
         
